@@ -1,4 +1,4 @@
-# Grey Hat Roadmap
+# Grey-Hat-Roadmap
 
 <p align="center">
 	<img src="assets/gif1.gif" alt="Grey Hat Roadmap Banner" width="900" />
