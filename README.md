@@ -70,4 +70,4 @@ Reference source:
 
 ## License
 
-This repository is for educational and personal roadmap organization purposes.
+This project is for educational and personal roadmap organization purposes.
