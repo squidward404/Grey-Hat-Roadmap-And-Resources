@@ -2,4 +2,4 @@
 
 ## Slide Deck Resources
 
-- [Example Title](https://example.com) - Source/Author
+- [Example Title](https://example.com) - 
