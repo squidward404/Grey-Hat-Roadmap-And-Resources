@@ -1,0 +1,58 @@
+For this practical exercise, I am using Cisco Packet Tracer, a network simulation and visualization tool.
+
+## Installation: Windows
+
+1. Download: Create a free account on Cisco Networking Academy (https://www.netacad.com/) and log in. Go to the Resources section (https://www.netacad.com/resources/lab-downloads), find Download Packet Tracer, and download the 64-bit Windows installer. Use the 32-bit version only if you need it.
+2. Run the installer: Locate the downloaded .exe file, double-click it, and click Yes if prompted by User Account Control.
+3. Accept the license: In the setup wizard, read the agreement, select I accept the agreement, and then click Next.
+4. Choose the destination: Select the installation folder, either the default location or a custom one, and click Next.
+5. Create shortcuts: Choose whether to create shortcuts on the Desktop and/or in the Start Menu, then click Next.
+6. Install: Review your settings and click Install. Wait for the process to complete.
+7. Finish: Click Finish. Make sure Launch Cisco Packet Tracer is checked, then click Yes if prompted to run in multi-user mode.
+8. Log in: On first launch, log in with your NetAcad credentials to activate the full version. You can select Keep me logged in for future sessions.
+
+## Installation: Linux
+
+1. Download: Create a free account on Cisco Networking Academy (NetAcad) and log in. Go to the Resources section and download the .deb package for Ubuntu or Debian.
+2. Open a terminal: Navigate to your Downloads directory with `cd ~/Downloads`.
+3. Install dependencies: Update your system and install the common dependencies:
+
+```bash
+sudo apt update
+sudo apt install libqt5widgets5 libqt5gui5 libqt5core5a libqt5network5 libqt5svg5 libgl1-mesa-glx libxcb-xinerama0-dev
+```
+
+4. Install the package: Install the downloaded .deb file:
+
+```bash
+sudo dpkg -i CiscoPacketTracer*.deb
+```
+
+If needed, replace CiscoPacketTracer*.deb with the exact filename.
+
+5. Fix dependencies: If you get dependency errors, run:
+
+```bash
+sudo apt-get install -f
+```
+
+6. Launch: Start Packet Tracer by typing `packettracer` in the terminal.
+7. Log in: On first launch, log in with your NetAcad credentials.
+
+## Subnetting Example
+
+Let’s subnet the Class C network 192.168.100.0 into two subnets.
+
+- The default subnet mask for Class C networks is 255.255.255.0 (11111111.11111111.11111111.00000000), or /24.
+- To find how many bits to borrow, use the formula 2^n=2(where n is number of borrowed host bits). For two subnets, n = 1.
+- Borrowing one host bit changes the subnet mask to 11111111.11111111.11111111.10000000 (255.255.255.128, or /25).
+- The block size, or increment, is 256 - 128 = 128.
+- The two subnet addresses are 192.168.100.0/25 and 192.168.100.128/25.
+- Each /25 subnet has 126 usable host addresses.
+- The default gateway is the router interface address for that subnet. It is the next address after the assigned hosts.
+- For example, in the subnet 192.168.100.0/25, if PC1 uses 192.168.100.1 and PC2 uses 192.168.100.2, the gateway could be 192.168.100.3 or any other unused host address assigned to the router interface.
+
+Because writing out every detail takes a lot of space, I made a video below. It is easier and clearer to explain that way.URL- https://mega.nz/file/QNBzhDoD#JMImAnNd9MPofmiTo5QNHhaUtif3tHP45UYH8kMplZk
+
+
+
