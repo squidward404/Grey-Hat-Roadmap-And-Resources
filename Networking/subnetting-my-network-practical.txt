@@ -52,7 +52,8 @@ Let’s subnet the Class C network 192.168.100.0 into two subnets.
 - The default gateway is the router interface address for that subnet. It is the next address after the assigned hosts.
 - For example, in the subnet 192.168.100.0/25, if PC1 uses 192.168.100.1 and PC2 uses 192.168.100.2, the gateway could be 192.168.100.3 or any other unused host address assigned to the router interface.
 
-Because writing out every detail takes a lot of space, I made a video below. It is easier and clearer to explain that way.URL- https://mega.nz/file/QNBzhDoD#JMImAnNd9MPofmiTo5QNHhaUtif3tHP45UYH8kMplZk
+Because writing out every detail takes a lot of space, I made a video below. It is easier and clearer to explain that way.
+URL- https://mega.nz/file/QNBzhDoD#JMImAnNd9MPofmiTo5QNHhaUtif3tHP45UYH8kMplZk
 
 
 
