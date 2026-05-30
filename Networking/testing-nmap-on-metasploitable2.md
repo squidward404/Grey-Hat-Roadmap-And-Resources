@@ -8,17 +8,19 @@ Metasploitable2 is an intentionally vulnerable Linux virtual machine used for se
 
 Use this guide to install Metasploitable2 in your lab environment:
 
-- https://example.com/your-video
+- https://youtu.be/l8v65ePR44k?si=8Pv8esRiKj7kPCPO
 
 
 ## Target and lab context
 - After a succesfull metasploitable2 installation fire it up from the virtual box and,you should login with credentials username:msfadmin and password:msfadmin
-VirtualBox_Metasploitable2_30_05_2026_23_21_33-1.png
-- Then run ifconfig to see the ip-address of your metasploitable2 machine.mine is 192.168.56.101
-![alt text](image.png)
+
+![alt text](../assets/image-1.png)
+- Then run `ifconfig` to see the ip-address of your metasploitable2 machine.mine is 192.168.56.101
+
+![alt text](../assets/image.png)
 - Target IP: 192.168.56.101
 
-Reminder: The scans below are only a portion of the basic Nmap options; there are many more flags and combinations to explore.
+Reminder: The scans below are only a portion of the basic Nmap options.There are many more flags and combinations to explore.
 
 ## 1) TCP connect scan: `-sT`
 
@@ -341,3 +343,17 @@ MAC Address: 08:00:27:66:76:66 (Oracle VirtualBox virtual NIC)
 
 Nmap done: 1 IP address (1 host up) scanned in 401.57 seconds
 ```
+
+
+
+
+________________
+   <by`Atomic`>
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+                                                 
+                                                                
