@@ -36,7 +36,7 @@ nmap -sT 192.168.56.101
 
 ### Advantages
 
-- Works without root privileges(no neef to run it with sudo).
+- Works without root privileges(no need to run it with sudo).
 - Most reliable when raw packets are blocked.
 - Easy to trace in packet captures for learning.
 
@@ -308,7 +308,7 @@ sudo nmap -sS -T2 192.168.56.101
 - Significantly slower than default timing.
 - Long scans are easier to notice in time-based logs.
 
-### Output (your lab)
+### Output (terminal)
 
 ```text
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2026-05-30 23:28 EAT
