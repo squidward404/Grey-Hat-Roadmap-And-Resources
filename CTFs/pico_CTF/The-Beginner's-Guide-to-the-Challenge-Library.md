@@ -1,5 +1,5 @@
 ## Note
-I recommend having a basic idea of Networking and Operating Systems before you dive into CTFs. It will make the early challenges feel much smoother.
+I recommend having a basic idea of [Networking](../../Networking/) and [Operating Systems](../../Operating-Systems/) before you dive into CTFs. It will make the early challenges feel much smoother.
 Official picoCTF site: https://picoctf.org
 
 ## Section 1 (Sanity)
