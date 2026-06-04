@@ -44,3 +44,86 @@ cat flag
 
 The output is the flag. Submit it, and you are done.
 
+### 1.2 Super SSH
+Secure Shell (SSH) is going to be pretty important. Can you SSH as `ctf-player` to `titan.picoctf.net` on port `58449` to get the flag? You will need the password `1ad5be0d`. If prompted, accept the fingerprint with `yes`.
+
+#### Hint 1
+https://linux.die.net/man/1/ssh
+- This link takes you to an SSH manual to read and understand what SSH is all about.
+
+#### Hint 2
+You can try logging in "as" someone with <user>@titan.picoctf.net
+What to do:
+- Use the command below to connect as the `ctf-player` user:
+
+```bash
+ssh ctf-player@titan.picoctf.net
+```
+
+#### Hint 3
+How could you specify the port?
+What to do:
+- Add the `-p` flag for the port:
+
+```bash
+ssh ctf-player@titan.picoctf.net -p 58449
+```
+
+#### Hint 4
+Remember, passwords are hidden when typed into the shell
+What to do:
+- Passwords do not appear while you type. Enter the SSH password `1ad5be0d` and press Enter.
+
+After entering the password and connecting successfully, you will see the message `Welcome ctf-player, here's your flag: picoCTF{s3cur3_c0nn3ct10n_8306c99d}`. Submit the flag and you are done.
+
+### 1.3. What's a net cat?
+Using netcat (`nc`) is going to be pretty important. Can you connect to `fickle-tempest.picoctf.net` at port `58116` to get the flag?
+
+#### Hint 1
+nc tutorial
+What to do:
+- Look up how to connect with `nc`, then run:
+
+```bash
+nc fickle-tempest.picoctf.net 58116
+```
+After running the command, you will see the message `You're on your way to becoming the net cat master picoCTF{nEtCat_Mast3ry_95035DAa}`. Submit the flag and you are done.
+
+## Section 2 (Cyber Chef)
+
+### 2.1 MOD 26
+Cryptography can be easy. Do you know what ROT13 is?
+
+Download the text file `values.txt`.
+
+#### Hint 1
+This can be solved online if you don't want to do it by hand!
+What to do:
+- Use an online decoder to decrypt the text. You can use https://cryptii.com/
+
+Take a look at the downloaded file by running `cat values.txt` in the downloaded directory. The output is `cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_45559noq}`, which is encrypted using ROT13. Decrypt it using Cryptii, then submit the flag. Done.
+
+### 2.2 Warmed Up
+Instance:What is 0x3D (base 16) in decimal (base 10)?
+
+#### Hint 1
+Submit your answer in our flag format. For example, if your answer was '22', you would submit 'picoCTF{22}' as the flag.
+
+The decimal equivalent of the hexadecimal number 3D is 61
+Submit the flag as `picoCTF{61}`. Done.
+
+### 2.3 2warm
+Instance:Can you convert the number 42 (base 10) to binary (base 2)?
+
+#### Hint 1
+Submit your answer in our competition's flag format. For example, if your answer was '11111', you would submit 'picoCTF{11111}' as the flag.
+
+The same thing as the previous challenge. The binary equivalent of 42 is 101010, so the flag becomes `picoCTF{101010}`.
+
+### 2.4 Bases
+Instance:What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
+
+#### Hint 1
+Submit your answer in our flag format. For example, if your answer was 'hello', you would submit 'picoCTF{hello}' as the flag.
+
+The question is what type of encoding is used for bDNhcm5fdGgzX3IwcDM1. It is Base64. When decoded using Cryptii, it becomes l3arn_th3_r0p35. Submit it in the format `picoCTF{l3arn_th3_r0p35}`.
