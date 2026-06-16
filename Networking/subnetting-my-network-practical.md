@@ -87,3 +87,12 @@ For a detailed, visual explanation, watch the video below:
 ---
 
 *This guide provides a concise, professional overview for practical subnetting using Cisco Packet Tracer. For more details, refer to the video.*
+
+________________
+   <by`Atomic`>
+ ----------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
