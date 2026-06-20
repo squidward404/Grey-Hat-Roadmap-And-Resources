@@ -1,0 +1,21 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Backup files
+*~
+*.swp
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Logs
+*.log
