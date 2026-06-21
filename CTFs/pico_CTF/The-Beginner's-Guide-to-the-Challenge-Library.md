@@ -127,3 +127,63 @@ Instance:What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to d
 Submit your answer in our flag format. For example, if your answer was 'hello', you would submit 'picoCTF{hello}' as the flag.
 
 The question is what type of encoding is used for bDNhcm5fdGgzX3IwcDM1. It is Base64. When decoded using Cryptii, it becomes l3arn_th3_r0p35. Submit it in the format `picoCTF{l3arn_th3_r0p35}`.
+
+
+## Section 3
+
+### 3.1 Wave a flag
+Instance: Can you invoke help flags for a tool or binary? This program includes a helpful "help" message.
+
+When you follow the challenge link it downloads an executable named `warm`. Run the following commands in the directory where you downloaded it:
+
+```bash
+chmod +x warm
+./warm
+# The program will print something like:
+# Hello user! Pass me a -h to learn what I can do!
+./warm -h
+# The help output includes the flag; submit it.
+```
+
+What to do:
+- Make the file executable: `chmod +x warm`
+- Run the program: `./warm`
+- Run it with the `-h` flag to show the help message and flag: `./warm -h`
+
+### 3.2 Tab, Tab Attack
+After unzipping, this problem can be solved using Tab completion.
+
+A zip file named `Addadshashanammu.zip` is provided. Download and unzip it, then change into the extracted directory:
+
+```bash
+unzip Addadshashanammu.zip
+cd Addadshashanammu
+ls
+```
+
+You should see a file or nested directories (for example `Almurbalarammi`). The hint suggests using `cd` and Tab completion (press Tab repeatedly) to reveal hidden or nested names and navigate to the flag.
+
+What to do:
+- Unzip the archive and use `cd` with Tab completion to discover the flag location.
+
+### 3.3 Insp3ctOr
+Instance: Inspect the web page source to find three parts of the flag.
+
+How to inspect:
+- In the browser, right-click and choose "Inspect" (or press Ctrl+Shift+C) to open Developer Tools.
+- Check the HTML, CSS, and JavaScript panels for hidden comments.
+
+What you'll find:
+- In the HTML (an HTML comment): <!-- Html is neat. Anyways have 1/3 of the flag: picoCTF{tru3_d3 --> (first part)
+- In the CSS (a comment): /* You need CSS to make pretty pages. Here's part 2/3 of the flag: t3ct1ve_0r_ju5t */
+- In the JavaScript (a comment): /* JavaScript sure is neat. Anyways part 3/3 of the flag: _lucky?302945a7} */
+
+Putting those together yields the full flag:
+
+```
+picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?302945a7}
+```
+
+What to do:
+- Inspect the page source (HTML/CSS/JS) and combine the three parts to form the complete flag.
+
