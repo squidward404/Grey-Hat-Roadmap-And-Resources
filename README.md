@@ -25,6 +25,33 @@ The goal is to keep this roadmap practical, skill-driven, and updated.
 
 ---
 
+## Read This First (building in progress)
+
+Follow this suggested read order to get started (top → bottom):
+
+```
+Read Order
+└─ 1. Operating Systems
+	 └─ 2. Networking
+			└─ 3. CTFs
+```
+
+- **Operating Systems:** start here to build a solid host-level foundation
+	- [Operating-Systems/books.md](Operating-Systems/books.md)
+
+- **Networking:** next, learn networking concepts used in assessments
+	- [Networking/books.md](Networking/books.md)
+	- [Networking/power-points.md](Networking/power-points.md)
+	- [Networking/subnetting-my-network-practical.md](Networking/subnetting-my-network-practical.md)
+	- [Networking/testing-nmap-on-metasploitable2.md](Networking/testing-nmap-on-metasploitable2.md)
+	- [Networking/hackers-arise.com-nmap-for-Recon-and-DoS.pdf](Networking/hackers-arise.com-nmap-for-Recon-and-DoS.pdf)
+
+- **CTFs:** apply your OS + networking knowledge in hands-on challenges
+	- [CTFs/pico_CTF/The-Beginner's-Guide-to-the-Challenge-Library.md](CTFs/pico_CTF/The-Beginner's-Guide-to-the-Challenge-Library.md)
+	- [CTFs/hack_the_box/starting_point.md](CTFs/hack_the_box/starting_point.md)
+
+---
+
 ## Roadmap
 
 ### Main Roadmap 
