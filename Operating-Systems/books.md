@@ -2,4 +2,4 @@
 
 ## PDF Resources
 
-- [Linux-for-dummies](https://drive.google.com/file/d/1F0LHY8QCS7xIzF49uFrc5yfPqHtFpXCV/view?usp=drive_link) - by Dee-Ann LeBlanc
+- [Linux-for-dummies](https://res.cloudinary.com/dpnm1f9cx/raw/upload/v1766166990/tzplikud8checeszyk7h.pdf) - by Dee-Ann LeBlanc
