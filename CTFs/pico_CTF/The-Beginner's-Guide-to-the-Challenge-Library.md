@@ -79,7 +79,7 @@ After entering the password and connecting successfully, you will see the messag
 ### 1.3. What's a net cat?
 Using netcat (`nc`) is going to be pretty important. Can you connect to `fickle-tempest.picoctf.net` at port `58116` to get the flag?
 
-#### Hint 1
+#### Hint 
 nc tutorial
 What to do:
 - Look up how to connect with `nc`, then run:
@@ -96,7 +96,7 @@ Cryptography can be easy. Do you know what ROT13 is?
 
 Download the text file `values.txt`.
 
-#### Hint 1
+#### Hint 
 This can be solved online if you don't want to do it by hand!
 What to do:
 - Use an online decoder to decrypt the text. You can use https://cryptii.com/
@@ -106,7 +106,7 @@ Take a look at the downloaded file by running `cat values.txt` in the downloaded
 ### 2.2 Warmed Up
 Instance:What is 0x3D (base 16) in decimal (base 10)?
 
-#### Hint 1
+#### Hint 
 Submit your answer in our flag format. For example, if your answer was '22', you would submit 'picoCTF{22}' as the flag.
 
 The decimal equivalent of the hexadecimal number 3D is 61
@@ -115,7 +115,7 @@ Submit the flag as `picoCTF{61}`. Done.
 ### 2.3 2warm
 Instance:Can you convert the number 42 (base 10) to binary (base 2)?
 
-#### Hint 1
+#### Hint
 Submit your answer in our competition's flag format. For example, if your answer was '11111', you would submit 'picoCTF{11111}' as the flag.
 
 The same thing as the previous challenge. The binary equivalent of 42 is 101010, so the flag becomes `picoCTF{101010}`.
@@ -123,7 +123,7 @@ The same thing as the previous challenge. The binary equivalent of 42 is 101010,
 ### 2.4 Bases
 Instance:What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
 
-#### Hint 1
+#### Hint
 Submit your answer in our flag format. For example, if your answer was 'hello', you would submit 'picoCTF{hello}' as the flag.
 
 The question is what type of encoding is used for bDNhcm5fdGgzX3IwcDM1. It is Base64. When decoded using Cryptii, it becomes l3arn_th3_r0p35. Submit it in the format `picoCTF{l3arn_th3_r0p35}`.
@@ -187,7 +187,7 @@ picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?302945a7}
 What to do:
 - Inspect the page source (HTML/CSS/JS) and combine the three parts to form the complete flag.
 
-### 3.3 Strings It 
+### 3.4 Strings It 
 Instance:Can you find the flag in file without running it?
 
 #### Hint 
@@ -209,7 +209,7 @@ strings strings | grep "pico"
 ```
 You will find the flag.
 
-### 3.4 First Grep 
+### 3.5 First Grep 
 Instance:Can you find the flag in the file? This would be really tedious to look through manually, something tells me there is a better way.The flag is in this file.
 
 #### Hint 
@@ -225,7 +225,7 @@ strings file | grep -o "picoCTF{.*}"
 ```
 To filter out the flag from the binary data.
 
-### 3.5 Where Are The Robots
+### 3.6 Where Are The Robots
 Launch the instance and visit the provided link `http://fickle-tempest.picoctf.net:62447/`
 
 #### Hint 
