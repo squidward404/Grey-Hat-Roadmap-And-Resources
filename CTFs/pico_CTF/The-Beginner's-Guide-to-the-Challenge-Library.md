@@ -187,3 +187,57 @@ picoCTF{tru3_d3t3ct1ve_0r_ju5t_lucky?302945a7}
 What to do:
 - Inspect the page source (HTML/CSS/JS) and combine the three parts to form the complete flag.
 
+### 3.3 Strings It 
+Instance:Can you find the flag in file without running it?
+
+#### Hint 
+strings
+
+As you can understand from the hint,it tells you to use the `strings` command which is used to extract printable character sequences from binary files or non-text files.But,if you run `strings strings` you will find out there is a large amount of text so what you should do is pipe.
+
+Piping in Linux is a mechanism for inter-process communication that allows the standard output (stdout) of one command to be passed directly as the standard input (stdin) to another command. 
+
+It uses the vertical bar symbol (|) to chain commands together, creating a data pipeline where processes execute concurrently and data flows unidirectionally from left to right.
+ 
+the output to grep.The `grep` command searches for specific patterns or regular expressions within files or input streams.
+
+What to do:
+-Download the file.The file is called `strings`,it's an executable file.
+-run:
+```bash
+strings strings | grep "pico"
+```
+You will find the flag.
+
+### 3.4 First Grep 
+Instance:Can you find the flag in the file? This would be really tedious to look through manually, something tells me there is a better way.The flag is in this file.
+
+#### Hint 
+grep tutorial
+
+The idea is similar to the previous challange.
+
+What to do:
+-Download the file.The file is called `file`,it's a text file but it also contains a bunch of binary data.
+-run:
+```bash
+strings file | grep -o "picoCTF{.*}"
+```
+To filter out the flag from the binary data.
+
+### 3.5 Where Are The Robots
+Launch the instance and visit the provided link `http://fickle-tempest.picoctf.net:62447/`
+
+#### Hint 
+What part of the website could tell you where the creator doesn't want you to look?
+
+I tried inspecting the site source code but found nothing but I didn't understand the hint and why the name of the challange is `Where Are The Robots` So after a bit of research,I found out:
+
+robots.txt is a plain text file located in the root directory of a website (e.g., example.com/robots.txt) that serves as a set of instructions for web crawlers 
+
+What I did afterwards:
+-appended `/robots.txt` to the original url `http://fickle-tempest.picoctf.net:53405/robots.txt` then when I searched it up,a page came up containing  `Disallow: /cc6b1.html` 
+-`Disallow: /cc6b1.html` is a specific instruction telling web crawlers not to access or index the file named cc6b1.html
+-After this,the hint made sense,the file which the creator doesn't want me to see is stored inside `/cc6b1.html` so to see it,just append it to the url like `http://fickle-tempest.picoctf.net:53405\cc6b1.html` the flag is stored inside this file.
+
+
