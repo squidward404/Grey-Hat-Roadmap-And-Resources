@@ -237,7 +237,9 @@ robots.txt is a plain text file located in the root directory of a website (e.g.
 
 What I did afterwards:
 -appended `/robots.txt` to the original url `http://fickle-tempest.picoctf.net:53405/robots.txt` then when I searched it up,a page came up containing  `Disallow: /cc6b1.html` 
+
 -`Disallow: /cc6b1.html` is a specific instruction telling web crawlers not to access or index the file named cc6b1.html
+
 -After this,the hint made sense,the file which the creator doesn't want me to see is stored inside `/cc6b1.html` so to see it,just append it to the url like `http://fickle-tempest.picoctf.net:53405\cc6b1.html` the flag is stored inside this file.
 
 
