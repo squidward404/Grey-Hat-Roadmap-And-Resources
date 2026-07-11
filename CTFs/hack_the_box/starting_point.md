@@ -83,5 +83,5 @@ ls
 get flag.txt
 ```
 
-This will download `flag.txt` to your current local directory. Open it and submit the flag.
+This will download `flag.txt` to your current local directory. Open it and submit the flag
 
