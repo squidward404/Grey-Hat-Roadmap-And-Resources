@@ -34,6 +34,7 @@ Read Order
 └─ 1. Operating Systems
 	 └─ 2. Networking
 			└─ 3. CTFs
+			       └─ 4. Web-Apps
 ```
 
 - **Operating Systems:** start here to build a solid host-level foundation
@@ -49,6 +50,8 @@ Read Order
 - **CTFs:** apply your OS + networking knowledge in hands-on challenges
 	- [CTFs/pico_CTF/The-Beginner's-Guide-to-the-Challenge-Library.md](CTFs/pico_CTF/The-Beginner's-Guide-to-the-Challenge-Library.md)
 	- [CTFs/hack_the_box/starting_point.md](CTFs/hack_the_box/starting_point.md)
+- **Web-Apps:**
+    - [Web-Apps/notes.md](Web-Apps/notes.md)
 
 ---
 
