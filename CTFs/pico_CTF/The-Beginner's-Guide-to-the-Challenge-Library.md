@@ -233,7 +233,7 @@ What part of the website could tell you where the creator doesn't want you to lo
 
 I tried inspecting the site source code but found nothing but I didn't understand the hint and why the name of the challange is `Where Are The Robots` So after a bit of research,I found out:
 
-robots.txt is a plain text file located in the root directory of a website (e.g., example.com/robots.txt) that serves as a set of instructions for web crawlers 
+robots.txt is a plain text file located in the root directory of a website (e.g., example.com/robots.txt) that serves as a set of instructions for web crawlers.
 
 What I did afterwards:
 -appended `/robots.txt` to the original url `http://fickle-tempest.picoctf.net:53405/robots.txt` then when I searched it up,a page came up containing  `Disallow: /cc6b1.html` 
