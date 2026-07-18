@@ -40,7 +40,7 @@ Read Order
 - **Operating Systems:** start here to build a solid host-level foundation
 	- [Operating-Systems/books.md](Operating-Systems/books.md)
 
-- **Networking:** next, learn networking concepts used in assessments
+- **Networking:** next, learn networking concepts 
 	- [Networking/books.md](Networking/books.md)
 	- [Networking/power-points.md](Networking/power-points.md)
 	- [Networking/subnetting-my-network-practical.md](Networking/subnetting-my-network-practical.md)
