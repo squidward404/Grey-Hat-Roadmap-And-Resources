@@ -70,7 +70,7 @@ ssh ctf-player@titan.picoctf.net -p 58449
 ```
 
 #### Hint 4
-Remember, passwords are hidden when typed into the shell
+Remember, passwords are hidden when typed into the shell.
 What to do:
 - Passwords do not appear while you type. Enter the SSH password `1ad5be0d` and press Enter.
 
