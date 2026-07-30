@@ -43,6 +43,7 @@ Read Order
 - **Networking:** next, learn networking concepts 
 	- [Networking/books.md](Networking/books.md)
 	- [Networking/power-points.md](Networking/power-points.md)
+    - [Networking/try_hack_me_networking_room.md](Networking/try_hack_me_networking_room.md)
 	- [Networking/subnetting-my-network-practical.md](Networking/subnetting-my-network-practical.md)
 	- [Networking/testing-nmap-on-metasploitable2.md](Networking/testing-nmap-on-metasploitable2.md)
 	- [Networking/hackers-arise.com-nmap-for-Recon-and-DoS.pdf](Networking/hackers-arise.com-nmap-for-Recon-and-DoS.pdf)
