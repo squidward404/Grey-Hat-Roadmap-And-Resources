@@ -35,6 +35,7 @@ Read Order
 	 └─ 2. Networking
 			└─ 3. CTFs
 			       └─ 4. Web-Apps
+                          └─ 5. AI-Hacking
 ```
 
 - **Operating Systems:** start here to build a solid host-level foundation
@@ -54,6 +55,8 @@ Read Order
 	- [CTFs/hack_the_box/starting_point.md](CTFs/hack_the_box/starting_point.md)
 - **Web-Apps:**
     - [Web-Apps/notes.md](Web-Apps/notes.md)
+- **AI-Hacking:**
+    - [AI-Hacking/hacking_ollama.md](AI-Hacking/hacking_ollama.md)
 
 ---
 
