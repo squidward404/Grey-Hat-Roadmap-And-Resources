@@ -38,6 +38,7 @@ Read Order
 ```
 
 - **Operating Systems:** start here to build a solid host-level foundation
+    - [Operating-Systems/try_hack_me_linux_room.md](Operating-Systems/try_hack_me_linux_room.md)
 	- [Operating-Systems/books.md](Operating-Systems/books.md)
 
 - **Networking:** next, learn networking concepts 
