@@ -57,6 +57,7 @@ Read Order
     - [Web-Apps/notes.md](Web-Apps/notes.md)
 - **AI-Hacking:**
     - [AI-Hacking/hacking_ollama.md](AI-Hacking/hacking_ollama.md)
+    - [AI-Hacking/jailbreaking-LLMs.md](AI-Hacking/jailbreaking-LLMs.md)
 
 ---
 
